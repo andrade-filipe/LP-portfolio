@@ -163,7 +163,7 @@ STORY
 
 .story {
     background-color: var(--clr-accent-800);
-    padding: var(--size-900);
+    padding: var(--size-900) 0;
 }
 
 .story__header {
@@ -198,7 +198,7 @@ EDUCATION
 
 .education {
     background-color: var(--clr-accent-600);
-    padding: var(--size-900);
+    padding: var(--size-900) 0;
 }
 
 .education__item{
@@ -219,7 +219,7 @@ PROJETOS
 
 .projetos {
     background-color: var(--clr-accent-200);
-    padding: var(--size-900);
+    padding: var(--size-900) 0;
 }
 
 .projetos__header {
@@ -232,11 +232,10 @@ CONTATO
 
 .contato {
     background-color: white;
-    padding: var(--size-900);
+    padding: var(--size-900) 0;
 }
 
-.contato__icon {
-    margin-bottom: var(--size-500);
+.contato__icon{
     text-align: center;
 }
 
